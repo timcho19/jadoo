@@ -65,3 +65,31 @@ nav h1 a{
   overflow: hidden;
   
 }
+
+
+/*hero */
+
+.hero{
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero .content{
+  margin-top: 130px;
+}
+
+.hero .content h3{
+  font-size: 20px;
+  line-height: 30px;
+  color: #DF6951;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.hero .content h2{
+  font-family: "Volkhov", serif;
+  font-size: 84px;
+  line-height: 89px;
+  font-weight: bold;
+  color: #181E4B;
+}
