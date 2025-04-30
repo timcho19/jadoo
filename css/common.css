@@ -50,3 +50,22 @@ body{
 
 /*fonts*/
 
+.section_sub_tt{
+text-align: center;
+text-transform: uppercase;
+font-size: 18px;
+line-height: 27px;
+font-weight: 600;
+color: #5e6282;
+margin-bottom: 10px;
+}
+
+.section_tt{
+ text-align: center;
+ text-decoration: none;
+ font-family: "Volkhov", serif;
+ font-size: 50px;
+ line-height: 65px;
+ color: #14183E;
+
+}
