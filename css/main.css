@@ -166,3 +166,9 @@ nav h1 a{
 }
 
 
+/*services 섹션*/
+
+.services ul {
+  display: flex;
+}
+
