@@ -97,6 +97,8 @@ nav h1 a{
   font-weight: bold;
   color: #181E4B;
   letter-spacing: -0.04em;
+  margin-bottom: 30px;
+  background-color: red;
 }
 .hero .content h2 strong{
   position: relative;
