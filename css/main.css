@@ -541,10 +541,11 @@ nav h1 a{
 }
 .ongoing .progress_bar .bar{
   position: absolute;
-  width: 40%;
+  width: 0;
   left:0;
   top:0;
   height: 100%;
   background: #8A79DF;
   border-radius: 2.5px;
+  transition: 0.3s;
 }
