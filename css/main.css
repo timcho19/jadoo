@@ -330,6 +330,7 @@ nav h1 a{
   display: flex;
   gap: 118px;
   background: url(../images/book_bg.svg) no-repeat right top;
+  padding-bottom: 200px;
 
 
 }
@@ -393,7 +394,15 @@ nav h1 a{
   border-radius: 26px;
   position: relative;
   box-shadow: var(--shadow);
+  transform: translateX(-50px);
+  opacity: 0;
+  transition: 0.3s;
 }
+.book_a_trip.active .pic_of_month .details{
+  transform: translateX(0);
+  opacity: 1;
+}
+
 .pic_of_month .details img{
   margin-bottom: 26px;
 }
@@ -482,6 +491,13 @@ nav h1 a{
   align-items: flex-start;
   gap: 12px;
   border-radius: 18px;
+  transform: translateX(50px);
+  opacity: 0;
+  transition: 0.3s;
+}
+.active .pic_of_month .ongoing{
+  transform: translateX(0);
+  opacity: 1;
 }
 
 .ongoing .desc h5{
@@ -514,4 +530,21 @@ nav h1 a{
   color: #8A79DF;
   letter-spacing: -0.035em;
   
+}
+
+.ongoing .progress_bar{
+  width:156px;
+  height: 5px;
+  border-radius: 2.5px;
+  background: #f5f5f5;
+  position: relative;
+}
+.ongoing .progress_bar .bar{
+  position: absolute;
+  width: 40%;
+  left:0;
+  top:0;
+  height: 100%;
+  background: #8A79DF;
+  border-radius: 2.5px;
 }
