@@ -493,7 +493,7 @@ nav h1 a{
   border-radius: 18px;
   transform: translateX(50px);
   opacity: 0;
-  transition: 0.3s;
+  transition: 0.5s;
 }
 .active .pic_of_month .ongoing{
   transform: translateX(0);

@@ -9,13 +9,12 @@ const ongoing_bar = document.querySelector(".ongoing .bar");
 
 window.addEventListener("scroll", () => {
   if (window.scrollY - 300 > book_a_triP_OST - book_a_trip_height) {
+    if( !book_a_trip.classList.contains("active")){
     book_a_trip.classList.add("active");
     startNumberAnimation();
+    }
 
-  } else {
-    book_a_trip.classList.remove("active");
-    stopNumberAnimation();
-  }
+  } 
 });
 
 function startNumberAnimation(){
